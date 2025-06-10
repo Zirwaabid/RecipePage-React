@@ -1,0 +1,7 @@
+.Img{
+margin: 2rem;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
