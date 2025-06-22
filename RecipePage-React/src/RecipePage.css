@@ -1,78 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
 
-.margin{
- margin-top: 0;
-  margin-bottom: 0;
-   margin-left: 1rem;
+.margin {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1rem;
 }
-.inner-container{
+
+.inner-container {
     margin: 1rem;
 }
-.Img{
-margin: 1.75rem;
+
+.Img {
+    margin: 1.75rem;
 }
-.card-container{
+
+.Img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-container {
     display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 
-.card{
+.card {
+    width: 100%;
+    max-width: 695px;
     margin-top: 3.5rem;
-   
 }
 
 
-.header-heading{
-     font-family: "young-serif";
-  font-weight: bolder;
-  font-size: 2.5rem;
+.header-heading {
+    font-family: "young-serif";
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: hsl(24, 5%, 18%);
+}
 
- color: hsl(24, 5%, 18%);
+.small-para {
+    margin-top: 1.5rem;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
 
 }
 
-.small-para{
-  margin-top: 1.5rem;
-  color: hsl(30, 10%, 34%);
-  font-size: 16px;
-
-}
-
-.preparation-time{
+.preparation-time {
     background-color: hsl(330, 100%, 98%);
     margin-top: 1.5rem;
     padding: 1.5rem;
     border-radius: 0.5rem;
 }
 
-.main-headings{
-    color: hsl(14, 45%, 36%)
-;
- font-family: "young-serif";
-  font-weight: bolder;
-  font-size: 2rem;
+.main-headings {
+    color: hsl(14, 45%, 36%);
+    font-family: "young-serif";
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
-li{
-   margin-top: 0.75rem;
+li {
+    margin-top: 0.75rem;
 }
 
 .nutrition-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 10px;
-  font-size: 16px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    font-size: 16px;
 }
 
 .nutrition-table td {
-  padding: 8px 0;
+    padding: 8px 0;
 }
 
 .nutrition-table td:first-child {
-  color: #4a4a4a;
+    color: #4a4a4a;
 }
 
 .nutrition-table td:last-child {
-  font-weight: bold;
-  color: hsl(14, 45%, 36%) /* Dark brown like in the image */
+    font-weight: bold;
+    color: hsl(14, 45%, 36%)
+}
+
+@media screen and (max-width: 480px) {
+    .header-heading {
+        font-size: 1.8rem;
+    }
+
+    .main-headings {
+        font-size: 1.5rem;
+    }
+
+    .small-para {
+        font-size: 14px;
+    }
+
+    .margin {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+
+    .inner-container {
+        margin: 0.75rem;
+    }
+
+    .preparation-time {
+        padding: 1rem;
+    }
+
+    .card-container {
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nutrition-table td {
+        font-size: 14px;
+    }
 }
