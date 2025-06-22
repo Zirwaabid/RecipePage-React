@@ -3,7 +3,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import CardActionArea from '@mui/material/CardActionArea';
 
-const Image1 = "/img1.jpeg";
+const Image1 = "/Img1.jpeg";
 import "./RecipePage.css"
 
 export default function RecipePage() {
