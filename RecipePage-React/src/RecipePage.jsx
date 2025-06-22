@@ -1,7 +1,7 @@
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import CardActionArea from '@mui/material/CardActionArea';
+import Card from '../node_modules/@mui/material/Card';
+import CardContent from '../node_modules/@mui/material/CardContent';
+import CardMedia from '../node_modules/@mui/material/CardMedia';
+import CardActionArea from '../node_modules/@mui/material/CardActionArea';
 import Image1 from "./assets/img1.jpeg";
 import "./RecipePage.css"
 
