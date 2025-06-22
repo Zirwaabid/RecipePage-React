@@ -96,31 +96,36 @@ export default function RecipePage() {
 
                                 </p>
                             </div>
-                              <br />
+                            <br />
                             <hr />
 
-                            <div className='nutrition'>
-                                <p className='main-headings'> Nutrition</p>
-
-                                The table below shows nutritional values per serving without the additional fillings.
-
-                                Calories
-                                277kcal
-
-                                Carbs
-                                0g
-
-                                Protein
-                                20g
-
-                                Fat
-                                22g
-
+                            <div className="nutrition margin" >
+                                <p className="main-headings">Nutrition</p>
+                                <p className="small-para">
+                                    The table below shows nutritional values per serving without the additional fillings.
+                                </p>
+                                <table className="nutrition-table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Calories</td>
+                                            <td><strong>277kcal</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Carbs</td>
+                                            <td><strong>0g</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Protein</td>
+                                            <td><strong>20g</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fat</td>
+                                            <td><strong>22g</strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                        </div>
-                        <div class="attribution">
-                            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-                            Coded by <a href="#">Your Name Here</a>.
+
                         </div>
                     </CardContent>
                 </CardActionArea>
